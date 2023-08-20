@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    justify-content: space-between;
+    min-height: 100vh;
+    background: #498482;
+}
+.content{
+    display: flex;
+}
+
+.image_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    margin-top: 54px;
+}
+.form{
+    width: 50vw;
+}
+.image_container img{
+
+    height: 480px;
+    width: 614px;
+    border-radius: 15px;
+}
+
+
+.form header {
+    font-size: 34px;
+    font-weight: 600;
+    text-align: center;
+    background-color: white;
+    width: 26%;
+    border-radius: 21px;
+    margin: 47px auto;
+    box-shadow: 0 0 38px 0 rgb(24 27 24);
+
+}
+
+.form form {
+    margin: 20px 0;
+}
+
+#form .name-details {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    border: 7px solid black;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: #84c885;
+}
+
+.field label {
+    display: block;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+.field input {
+    font-weight: bold;
+    padding: 8px;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.field textarea {
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.assign {
+    text-align: center;
+}
+
+.assign input {
+    padding: 2px;
+    margin-top: 12px;
+    font-size: 23px;
+    width: 27%;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
+.assign input:hover {
+    color: red;
+}
+
+
+.container {
+    margin: 80px 14px;
+    display: flex;
+    }
+
+    #task-list {
+        background-color: white;
+        padding: 23px;
+        border-radius: 25px;
+        width: 50%;
+        height: min-content;
+        
+    }
+
+    h2{
+        font-size: 32px;
+    margin-bottom: 45px;
+    padding-top: 15px;
+    text-align: center;
+    
+    }
+    .task {
+        width: 100%;
+        border-collapse: collapse;
+        table-layout: fixed;
+        margin-bottom: 10px;
+       
+    }
+    
+
+    .task th,
+    .task td {
+        padding: 10px;
+        border: 3px solid #3e8b81;
+        text-align: center;
+        word-wrap: break-word;
+    }
+
+    button{
+        background-color: red;
+    font-size: 19px;
+    padding: 2px 7px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    }
+    button:hover{
+        background-color:rgb(11, 227, 11);
+        color: black;
+    }
+
+    #completed-task-list {
+      width: 50%;
+      background-color: white;
+        padding: 23px;
+        border-radius: 25px;
+        margin-left: 14px;
+        height: min-content;
+    
+  }
+  
+ 
+
+
+
